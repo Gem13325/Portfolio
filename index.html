@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <title>Portfolio</title>
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 10;
+    margin: 0;
+    color: #333;
+    line-height: 25px;
+    background-color: #eee;
+  }
+  #works a {
+    color: black;
+  }
+  a { text-decoration: none; }
+  p{
+    font-size: 10;
+  }
+  header, footer {
+    background: linear-gradient(to right, #222, #444, #222);
+    padding: 4% 2%;
+    color: white;
+    position: relative;
+    text-align: center;
+  }
+  #about, #skill, #works, #contact, .work-item {
+    background-color: white;
+    margin: 2.5%;
+    padding: 6%;
+  }
+  box{
+    width: 100%;
+    border: 2px solid black;
+    background-color: red;
+    position: absolute;
+    padding: 5px;
+  }
+  
+  .work {
+    float: left;
+    text-align: left;
+    border: 1px solid lightgray;
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+  .work-item {
+    text-align: center;
+  }
+  .work-item h2 { text-align: left;}
+  .work-item img{
+    width: 40%;
+    margin: 12px;    
+  }
+  
+  h1 {
+    margin-left: 2.5px;
+    text-shadow: 0 0 2px black;
+    
+  }
+  p {
+    line-height: 25px;
+  }
+  
+  .img {
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 5%;
+
+  }
+  footer {
+    padding: 1%;
+  }
+  nav a {
+    text-align: center;
+    padding: 0 4%;
+    color: #333;
+  }
+  nav {
+    text-align: center;
+   background-color: white;
+    padding: 5px;
+    color: #eee;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 1px 4px #eee;
+  }
+  ul {
+    margin-left: -8%;
+  }
+  #package .pack {
+    width: 90%;
+  }
+  
+  .work-item img {
+    box-shadow: 8px 8px 8px #aaaa;
+    border-radius: 6px;
+  }
+  
+  @media screen and (min-width: 720px) {
+    body {
+      text-align: center;
+    }
+    .work-item img {
+      width: 20%
+      
+    }
+    #package .pack {
+      width: 30%;
+    }
+    .img {
+      width: 25%;
+      margin-right: 1%;
+      float: left;
+      margin-bottom: 0;
+    }
+    .box {
+      margin-top: -2.5%;
+      height: 100%;
+      margin-left: 25%;
+      padding: 1% 2%;
+    }      
+           
+  }
+    .work {
+      margin: 2% 4%;       
+    }
+    nav {
+      text-align: right;
+    }
+    ul {
+     margin-left: 6%;
+    }
+    li {
+     text-align: left;
+    }
+    
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+    I'm Jannathul Hassana
+  </h1>
+   <h3>
+     Graphic Designer
+   </h3>
+    
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skill">Skills</a>
+    <a href="#works">Works</a>
+    <a href="#contact">Contact</a>
+    </nav>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate graphic designer with experience in branding, illustration, digital media, and creative direction. My designs reflect a blend of creativity, clarity, and client-centered solutions.
+    </p>
+  </section>
+  
+  <section id="skill">
+    <h2>Skills</h2>
+    <ul>
+      <li>Adobe Photoshop, Illustrator & figma and canva</li>
+      <li>UI/UX Design</li>
+      <li>Logo & Branding</li>
+      <li>Layout & Packaging</li>
+      <li>Marketing & Social Media Design</li>
+      <li>Print Design</li>
+      <li>HTML, CSS, JavaScript, PHP & WordPress</li>
+    </ul>
+  </section>  
+  <section id="works"> 
+    <h2>Works</h2>    
+    <a href="#logo">
+    <div class="work">
+      <img src="images/Add a heading_20251208_030604_0000.png" class="img">
+      <div class="box">
+      <h3>Branding & Logo Design</h3>
+      <p>A brand’s visual identity is created using logos, colors, and typography.
+It helps businesses look unique and memorable to customers.
+</p> 
+    </div></a>        
+    </div>
+    <div class="work">
+      <a href="#flyer">
+      <img src="images/2_20251208_170757_0000.png" class="img">
+      <div class="box">
+      <h3>Marketing & Social Media Design</h3>
+      <p>Designs created to promote products, services, or events.
+Used for ads, posters, flyers, and social media content.</p> 
+      </div></a>        
+    </div>
+    <div class="work">
+      <a href="#package">
+      <img src="images/Blue Modern Magnesium Supplement Label Design_20251208_172500_0002.png" class="img">
+      <div class="box">
+      <h3>Packaging Design</h3>
+      <p>Designing the outer appearance of products such as boxes, bottles, and labels.
+It communicates the brand and attracts customer attention</p>  
+      </div></a>        
+    </div>
+    <div class="work">
+      <a href="#cv">
+      <img src="images/21_20251207_034054_0020.jpg" class="img">
+      <div class="box">
+      <h3>CV & Resume Design</h3>
+      <p>Clean and modern resume layouts designed for professional presentation.
+Focus on clear structure, strong typography, and easy readability.</p>
+      </div></a>       
+    </div>
+          
+    <div class="work">
+      <a href="#invitation">
+      <img src="images/19_20251207_034054_0018.png" class="img">
+      <div class="box">
+      <h3>Invitation Design</h3>
+      <p>Beautiful and personalized invitation cards for weddings and special events.
+Designed with matching themes, colors, and elegant visual styling.</p> 
+      </div></a>        
+    </div>
+    <p style="color:white;">&^%£%%%%££</p>
+  </section>   
+  
+  <section id="logo" class="work-item"> 
+    <h2>Branding & Logo Design</h2>      
+    <img src="images/Add a heading_20251208_030604_0000.png" alt="design">
+<img src="images/Add a heading_20251208_030604_0001.png" alt="design">
+<img src="images/Add a heading_20251208_030605_0002.png" alt="design">
+<img src="images/Add a heading_20251208_030605_0003.png" alt="design">
+<img src="images/Add a heading_20251208_030605_0004.png" alt="design">
+<img src="images/Add a heading_20251208_030605_0005.png" alt="design">
+<img src="images/Add a heading_20251208_030605_0006.png" alt="design">
+<img src="images/Add a heading_20251208_030605_0007.png" alt="design">
+<img src="images/Add a heading_20251208_030605_0008.png" alt="design">            
+<img src="images/Add a heading_20251208_030605_0009.png" alt="design">
+<img src="images/Add a heading_20251208_030605_0010.png" alt="design">
+<img src="images/Add a heading_20251208_030606_0011.png" alt="design">
+<img src="images/Add a heading_20251208_030606_0012.png" alt="design"> 
+<img src="images/Add a heading_20251208_030606_0013.png" alt="design">   
+  </section>
+  
+  <section id="flyer" class="work-item">
+    <h2>Marketing & Social Media Design</h2>
+    <img src="images/20251208_165203_0000.png" alt="design">
+<img src="images/20251208_165418_0000.png" alt="design"> 
+<img src="images/20251208_165753_0000.png" alt="design">
+<img src="images/20251208_165549_0000.png" alt="design">
+<img src="images/2_20251208_170757_0000.png" alt="design"> 
+<img src="images/3_20251208_170758_0001.png" alt="design">  
+<img src="images/4_20251208_170758_0002.png" alt="design"> 
+<img src="images/5_20251208_170758_0003.png" alt="design"> 
+<img src="images/6_20251208_170758_0004.png" alt="design">              
+<img src="images/7_20251208_170758_0005.png" alt="design"> 
+<img src="images/8_20251208_170758_0006.png" alt="design">
+
+  </section>
+  <section id="package" class="work-item">
+    <h2>Packaging Design</h2>
+    <img class="pack" src="images/Blue Modern Magnesium Supplement Label Design_20251208_172459_0000.png" alt="design">
+<img class="pack" src="images/Blue Modern Magnesium Supplement Label Design_20251208_172500_0001.png" alt="design"> 
+<img class="pack" src="images/Blue Modern Magnesium Supplement Label Design_20251208_172500_0002.png" alt="design">
+<img class="pack" src="images/Blue Modern Magnesium Supplement Label Design_20251208_172500_0003.png" alt="design">
+<img class="pack" src="images/Blue Modern Magnesium Supplement Label Design_20251208_172500_0004.png" alt="design"> 
+<img class="pack" src="images/Blue Modern Magnesium Supplement Label Design_20251208_172500_0005.png" alt="design">  
+  </section> 
+  
+  <section id="invitation" class="work-item">
+    <h2>Invitation Design</h2>
+    <img src="images/1_20251207_034053_0000.png" alt="design"> 
+            <img src="images/2_20251207_034053_0001.png" alt="design">
+            <img src="images/3_20251207_034053_0002.png" alt="design">
+            <img src="images/4_20251207_034053_0003.png" alt="design">
+            <img src="images/5_20251207_034053_0004.png" alt="design">
+            <img src="images/6_20251207_034053_0005.png" alt="design">
+            <img src="images/7_20251207_034053_0006.png" alt="design">
+            <img src="images/8_20251207_034054_0007.png" alt="design">
+            <img src="images/9_20251207_034054_0008.png" alt="design">
+            <img src="images/11_20251207_034054_0010.png" alt="design">
+  </section>
+  
+  <section id="cv" class="work-item">
+    <h2>CV & Resume Design</h2>
+    <img src="images/21_20251207_034054_0020.jpg" alt="design">   
+<img src="images/24_20251207_034054_0023.jpg" alt="design"> 
+<img src="images/21_20251207_034054_0022.jpg" alt="design">
+<img src="images/21_20251207_034054_0021.jpg" alt="design">
+<img src="images/25_20251207_034054_0024.jpg" alt="design"> 
+<img src="images/26_20251207_034054_0025.jpg" alt="design">
+  </section> 
+  
+  <section id="contact">
+    <h2>Contact us</h2>
+    <p style="line-height: 30px;">E-mail: <a href="mailto:jhassana1998@gmail.com">jhassana1998@gmail.com</a><br>
+    Phone: <a href="tel:+94771995450">+94 771995450</a> <br> 
+    WhatsApp: <a href="https://wa.me/94775488217" target="_blank">+94 775488217</a> </p>  
+  </section>
+<footer>
+    <p>&copy; 2025 Jannathul Hassana. All rights reserved.</p>
+  </footer>    
+</body>
+</html>
